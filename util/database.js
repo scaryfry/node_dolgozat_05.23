@@ -26,7 +26,7 @@ export const deleteNote = (id) => {
     return stmt.run(id);
 }
 
-const notes = [{id:1 , title: 'Note 1', content: 'content 1',}, {id:2, title: 'Note 2', content: 'content 2'}, {id:3, title: 'Note 3', content: 'content 3'}];
+const notes = [{id:1 , title: 'Note 1', content: 'content 1',}, {id:2, title: 'Note 2', content: 'content 2'}, {id:3, title: 'Note 3', content: 'content 3'}, {id:4, title: 'Note 4', content: 'content 4'}];
 
 // for(const note of notes){
 //     createNote(note.title, note.content);
